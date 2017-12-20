@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE110BA21FE9F0B900943077 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE110B941FE9F0B900943077 /* libopencore-amrwb.a */; };
+		FE110BA31FE9F0B900943077 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE110B9A1FE9F0B900943077 /* libopencore-amrnb.a */; };
+		FE110BA41FE9F0B900943077 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE110B9D1FE9F0B900943077 /* wav.mm */; };
+		FE110BA51FE9F0B900943077 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE110B9E1FE9F0B900943077 /* amrFileCodec.mm */; };
+		FE110BA61FE9F0B900943077 /* EMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE110BA11FE9F0B900943077 /* EMVoiceConverter.mm */; };
+		FE110BB81FEA081700943077 /* EMCDDeviceManager+Remind.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BA91FEA081700943077 /* EMCDDeviceManager+Remind.m */; };
+		FE110BB91FEA081700943077 /* EMCDDeviceManager+ProximitySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BAA1FEA081700943077 /* EMCDDeviceManager+ProximitySensor.m */; };
+		FE110BBA1FEA081700943077 /* EMCDDeviceManager+Media.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BB01FEA081700943077 /* EMCDDeviceManager+Media.m */; };
+		FE110BBB1FEA081700943077 /* EMCDDeviceManager+Microphone.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BB31FEA081700943077 /* EMCDDeviceManager+Microphone.m */; };
+		FE110BBC1FEA081700943077 /* EMAudioRecorderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BB41FEA081700943077 /* EMAudioRecorderUtil.m */; };
+		FE110BBD1FEA081700943077 /* EMAudioPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BB51FEA081700943077 /* EMAudioPlayerUtil.m */; };
+		FE110BBE1FEA081700943077 /* EMCDDeviceManagerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE110BB61FEA081700943077 /* EMCDDeviceManagerBase.m */; };
+		FE47B8D31FE90FE7007B6FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B8D21FE90FE7007B6FBF /* AppDelegate.m */; };
+		FE47B8D61FE90FE7007B6FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B8D51FE90FE7007B6FBF /* ViewController.m */; };
+		FE47B8D91FE90FE7007B6FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE47B8D71FE90FE7007B6FBF /* Main.storyboard */; };
+		FE47B8DB1FE90FE7007B6FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE47B8DA1FE90FE7007B6FBF /* Assets.xcassets */; };
+		FE47B8DE1FE90FE7007B6FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE47B8DC1FE90FE7007B6FBF /* LaunchScreen.storyboard */; };
+		FE47B8E11FE90FE7007B6FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B8E01FE90FE7007B6FBF /* main.m */; };
+		FE47B8EB1FE90FE7007B6FBF /* AVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B8EA1FE90FE7007B6FBF /* AVDemoTests.m */; };
+		FE47B8F61FE90FE7007B6FBF /* AVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B8F51FE90FE7007B6FBF /* AVDemoUITests.m */; };
+		FE47B9051FE926E3007B6FBF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47B9041FE926E2007B6FBF /* AVFoundation.framework */; };
+		FE47B9071FE926F8007B6FBF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47B9061FE926F8007B6FBF /* AudioToolbox.framework */; };
+		FE47B90A1FE92B16007B6FBF /* GJAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B9091FE92B16007B6FBF /* GJAVAudioPlayer.m */; };
+		FE47B90D1FE931E9007B6FBF /* GJAVAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47B90C1FE931E9007B6FBF /* GJAVAudioRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE47B8E71FE90FE7007B6FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47B8C61FE90FE7007B6FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE47B8CD1FE90FE7007B6FBF;
+			remoteInfo = AVDemo;
+		};
+		FE47B8F21FE90FE7007B6FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47B8C61FE90FE7007B6FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE47B8CD1FE90FE7007B6FBF;
+			remoteInfo = AVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE110B941FE9F0B900943077 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		FE110B951FE9F0B900943077 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		FE110B961FE9F0B900943077 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		FE110B971FE9F0B900943077 /* EMVoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceConverter.h; sourceTree = "<group>"; };
+		FE110B991FE9F0B900943077 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		FE110B9A1FE9F0B900943077 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		FE110B9B1FE9F0B900943077 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		FE110B9D1FE9F0B900943077 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		FE110B9E1FE9F0B900943077 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		FE110B9F1FE9F0B900943077 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		FE110BA01FE9F0B900943077 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		FE110BA11FE9F0B900943077 /* EMVoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EMVoiceConverter.mm; sourceTree = "<group>"; };
+		FE110BA81FEA081700943077 /* EMCDDeviceManager+Microphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Microphone.h"; sourceTree = "<group>"; };
+		FE110BA91FEA081700943077 /* EMCDDeviceManager+Remind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Remind.m"; sourceTree = "<group>"; };
+		FE110BAA1FEA081700943077 /* EMCDDeviceManager+ProximitySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+ProximitySensor.m"; sourceTree = "<group>"; };
+		FE110BAB1FEA081700943077 /* EMCDDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManager.h; sourceTree = "<group>"; };
+		FE110BAC1FEA081700943077 /* EMCDDeviceManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerBase.h; sourceTree = "<group>"; };
+		FE110BAD1FEA081700943077 /* DemoErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoErrorCode.h; sourceTree = "<group>"; };
+		FE110BAE1FEA081700943077 /* EMAudioPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAudioPlayerUtil.h; sourceTree = "<group>"; };
+		FE110BAF1FEA081700943077 /* EMAudioRecorderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAudioRecorderUtil.h; sourceTree = "<group>"; };
+		FE110BB01FEA081700943077 /* EMCDDeviceManager+Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Media.m"; sourceTree = "<group>"; };
+		FE110BB11FEA081700943077 /* EMCDDeviceManager+ProximitySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+ProximitySensor.h"; sourceTree = "<group>"; };
+		FE110BB21FEA081700943077 /* EMCDDeviceManager+Remind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Remind.h"; sourceTree = "<group>"; };
+		FE110BB31FEA081700943077 /* EMCDDeviceManager+Microphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Microphone.m"; sourceTree = "<group>"; };
+		FE110BB41FEA081700943077 /* EMAudioRecorderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAudioRecorderUtil.m; sourceTree = "<group>"; };
+		FE110BB51FEA081700943077 /* EMAudioPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAudioPlayerUtil.m; sourceTree = "<group>"; };
+		FE110BB61FEA081700943077 /* EMCDDeviceManagerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMCDDeviceManagerBase.m; sourceTree = "<group>"; };
+		FE110BB71FEA081700943077 /* EMCDDeviceManager+Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Media.h"; sourceTree = "<group>"; };
+		FE110BC01FEA088F00943077 /* EMCDDeviceManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		FE110BC11FEA088F00943077 /* EMCDDeviceManagerProximitySensorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerProximitySensorDelegate.h; sourceTree = "<group>"; };
+		FE47B8CE1FE90FE7007B6FBF /* AVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47B8D11FE90FE7007B6FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE47B8D21FE90FE7007B6FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE47B8D41FE90FE7007B6FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE47B8D51FE90FE7007B6FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE47B8D81FE90FE7007B6FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE47B8DA1FE90FE7007B6FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE47B8DD1FE90FE7007B6FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE47B8DF1FE90FE7007B6FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47B8E01FE90FE7007B6FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE47B8E61FE90FE7007B6FBF /* AVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47B8EA1FE90FE7007B6FBF /* AVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVDemoTests.m; sourceTree = "<group>"; };
+		FE47B8EC1FE90FE7007B6FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47B8F11FE90FE7007B6FBF /* AVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47B8F51FE90FE7007B6FBF /* AVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVDemoUITests.m; sourceTree = "<group>"; };
+		FE47B8F71FE90FE7007B6FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47B9041FE926E2007B6FBF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE47B9061FE926F8007B6FBF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FE47B9081FE92B16007B6FBF /* GJAVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJAVAudioPlayer.h; sourceTree = "<group>"; };
+		FE47B9091FE92B16007B6FBF /* GJAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJAVAudioPlayer.m; sourceTree = "<group>"; };
+		FE47B90B1FE931E9007B6FBF /* GJAVAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJAVAudioRecorder.h; sourceTree = "<group>"; };
+		FE47B90C1FE931E9007B6FBF /* GJAVAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJAVAudioRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE47B8CB1FE90FE7007B6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47B9071FE926F8007B6FBF /* AudioToolbox.framework in Frameworks */,
+				FE110BA31FE9F0B900943077 /* libopencore-amrnb.a in Frameworks */,
+				FE110BA21FE9F0B900943077 /* libopencore-amrwb.a in Frameworks */,
+				FE47B9051FE926E3007B6FBF /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8E31FE90FE7007B6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8EE1FE90FE7007B6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE110B921FE9F0B900943077 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				FE110B931FE9F0B900943077 /* opencore-amrwb */,
+				FE110B971FE9F0B900943077 /* EMVoiceConverter.h */,
+				FE110B981FE9F0B900943077 /* opencore-amrnb */,
+				FE110B9C1FE9F0B900943077 /* amrwapper */,
+				FE110BA11FE9F0B900943077 /* EMVoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		FE110B931FE9F0B900943077 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				FE110B941FE9F0B900943077 /* libopencore-amrwb.a */,
+				FE110B951FE9F0B900943077 /* if_rom.h */,
+				FE110B961FE9F0B900943077 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		FE110B981FE9F0B900943077 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				FE110B991FE9F0B900943077 /* interf_dec.h */,
+				FE110B9A1FE9F0B900943077 /* libopencore-amrnb.a */,
+				FE110B9B1FE9F0B900943077 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		FE110B9C1FE9F0B900943077 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				FE110B9D1FE9F0B900943077 /* wav.mm */,
+				FE110B9E1FE9F0B900943077 /* amrFileCodec.mm */,
+				FE110B9F1FE9F0B900943077 /* amrFileCodec.h */,
+				FE110BA01FE9F0B900943077 /* wav.h */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		FE110BA71FEA081700943077 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FE110BA81FEA081700943077 /* EMCDDeviceManager+Microphone.h */,
+				FE110BA91FEA081700943077 /* EMCDDeviceManager+Remind.m */,
+				FE110BAA1FEA081700943077 /* EMCDDeviceManager+ProximitySensor.m */,
+				FE110BAB1FEA081700943077 /* EMCDDeviceManager.h */,
+				FE110BAC1FEA081700943077 /* EMCDDeviceManagerBase.h */,
+				FE110BAD1FEA081700943077 /* DemoErrorCode.h */,
+				FE110BAE1FEA081700943077 /* EMAudioPlayerUtil.h */,
+				FE110BAF1FEA081700943077 /* EMAudioRecorderUtil.h */,
+				FE110BB01FEA081700943077 /* EMCDDeviceManager+Media.m */,
+				FE110BB11FEA081700943077 /* EMCDDeviceManager+ProximitySensor.h */,
+				FE110BB21FEA081700943077 /* EMCDDeviceManager+Remind.h */,
+				FE110BB31FEA081700943077 /* EMCDDeviceManager+Microphone.m */,
+				FE110BB41FEA081700943077 /* EMAudioRecorderUtil.m */,
+				FE110BB51FEA081700943077 /* EMAudioPlayerUtil.m */,
+				FE110BB61FEA081700943077 /* EMCDDeviceManagerBase.m */,
+				FE110BB71FEA081700943077 /* EMCDDeviceManager+Media.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FE110BBF1FEA088F00943077 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FE110BC01FEA088F00943077 /* EMCDDeviceManagerDelegate.h */,
+				FE110BC11FEA088F00943077 /* EMCDDeviceManagerProximitySensorDelegate.h */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		FE47B8C51FE90FE7007B6FBF = {
+			isa = PBXGroup;
+			children = (
+				FE47B8D01FE90FE7007B6FBF /* AVDemo */,
+				FE47B8E91FE90FE7007B6FBF /* AVDemoTests */,
+				FE47B8F41FE90FE7007B6FBF /* AVDemoUITests */,
+				FE47B8CF1FE90FE7007B6FBF /* Products */,
+				FE47B9031FE926E2007B6FBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE47B8CF1FE90FE7007B6FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE47B8CE1FE90FE7007B6FBF /* AVDemo.app */,
+				FE47B8E61FE90FE7007B6FBF /* AVDemoTests.xctest */,
+				FE47B8F11FE90FE7007B6FBF /* AVDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE47B8D01FE90FE7007B6FBF /* AVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE47B8D11FE90FE7007B6FBF /* AppDelegate.h */,
+				FE47B8D21FE90FE7007B6FBF /* AppDelegate.m */,
+				FE47B8D41FE90FE7007B6FBF /* ViewController.h */,
+				FE47B8D51FE90FE7007B6FBF /* ViewController.m */,
+				FE47B9081FE92B16007B6FBF /* GJAVAudioPlayer.h */,
+				FE47B9091FE92B16007B6FBF /* GJAVAudioPlayer.m */,
+				FE47B90B1FE931E9007B6FBF /* GJAVAudioRecorder.h */,
+				FE47B90C1FE931E9007B6FBF /* GJAVAudioRecorder.m */,
+				FE110BBF1FEA088F00943077 /* delegates */,
+				FE110BA71FEA081700943077 /* internal */,
+				FE110B921FE9F0B900943077 /* VoiceConvert */,
+				FE47B8D71FE90FE7007B6FBF /* Main.storyboard */,
+				FE47B8DA1FE90FE7007B6FBF /* Assets.xcassets */,
+				FE47B8DC1FE90FE7007B6FBF /* LaunchScreen.storyboard */,
+				FE47B8DF1FE90FE7007B6FBF /* Info.plist */,
+				FE47B8E01FE90FE7007B6FBF /* main.m */,
+			);
+			path = AVDemo;
+			sourceTree = "<group>";
+		};
+		FE47B8E91FE90FE7007B6FBF /* AVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE47B8EA1FE90FE7007B6FBF /* AVDemoTests.m */,
+				FE47B8EC1FE90FE7007B6FBF /* Info.plist */,
+			);
+			path = AVDemoTests;
+			sourceTree = "<group>";
+		};
+		FE47B8F41FE90FE7007B6FBF /* AVDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE47B8F51FE90FE7007B6FBF /* AVDemoUITests.m */,
+				FE47B8F71FE90FE7007B6FBF /* Info.plist */,
+			);
+			path = AVDemoUITests;
+			sourceTree = "<group>";
+		};
+		FE47B9031FE926E2007B6FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE47B9061FE926F8007B6FBF /* AudioToolbox.framework */,
+				FE47B9041FE926E2007B6FBF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE47B8CD1FE90FE7007B6FBF /* AVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47B8FA1FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemo" */;
+			buildPhases = (
+				FE47B8CA1FE90FE7007B6FBF /* Sources */,
+				FE47B8CB1FE90FE7007B6FBF /* Frameworks */,
+				FE47B8CC1FE90FE7007B6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVDemo;
+			productName = AVDemo;
+			productReference = FE47B8CE1FE90FE7007B6FBF /* AVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE47B8E51FE90FE7007B6FBF /* AVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47B8FD1FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemoTests" */;
+			buildPhases = (
+				FE47B8E21FE90FE7007B6FBF /* Sources */,
+				FE47B8E31FE90FE7007B6FBF /* Frameworks */,
+				FE47B8E41FE90FE7007B6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE47B8E81FE90FE7007B6FBF /* PBXTargetDependency */,
+			);
+			name = AVDemoTests;
+			productName = AVDemoTests;
+			productReference = FE47B8E61FE90FE7007B6FBF /* AVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE47B8F01FE90FE7007B6FBF /* AVDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47B9001FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemoUITests" */;
+			buildPhases = (
+				FE47B8ED1FE90FE7007B6FBF /* Sources */,
+				FE47B8EE1FE90FE7007B6FBF /* Frameworks */,
+				FE47B8EF1FE90FE7007B6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE47B8F31FE90FE7007B6FBF /* PBXTargetDependency */,
+			);
+			name = AVDemoUITests;
+			productName = AVDemoUITests;
+			productReference = FE47B8F11FE90FE7007B6FBF /* AVDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE47B8C61FE90FE7007B6FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mr.H;
+				TargetAttributes = {
+					FE47B8CD1FE90FE7007B6FBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FE47B8E51FE90FE7007B6FBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE47B8CD1FE90FE7007B6FBF;
+					};
+					FE47B8F01FE90FE7007B6FBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE47B8CD1FE90FE7007B6FBF;
+					};
+				};
+			};
+			buildConfigurationList = FE47B8C91FE90FE7007B6FBF /* Build configuration list for PBXProject "AVDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE47B8C51FE90FE7007B6FBF;
+			productRefGroup = FE47B8CF1FE90FE7007B6FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE47B8CD1FE90FE7007B6FBF /* AVDemo */,
+				FE47B8E51FE90FE7007B6FBF /* AVDemoTests */,
+				FE47B8F01FE90FE7007B6FBF /* AVDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE47B8CC1FE90FE7007B6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47B8DE1FE90FE7007B6FBF /* LaunchScreen.storyboard in Resources */,
+				FE47B8DB1FE90FE7007B6FBF /* Assets.xcassets in Resources */,
+				FE47B8D91FE90FE7007B6FBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8E41FE90FE7007B6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8EF1FE90FE7007B6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE47B8CA1FE90FE7007B6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE110BBE1FEA081700943077 /* EMCDDeviceManagerBase.m in Sources */,
+				FE110BBB1FEA081700943077 /* EMCDDeviceManager+Microphone.m in Sources */,
+				FE110BBA1FEA081700943077 /* EMCDDeviceManager+Media.m in Sources */,
+				FE110BB81FEA081700943077 /* EMCDDeviceManager+Remind.m in Sources */,
+				FE110BA51FE9F0B900943077 /* amrFileCodec.mm in Sources */,
+				FE110BBC1FEA081700943077 /* EMAudioRecorderUtil.m in Sources */,
+				FE110BBD1FEA081700943077 /* EMAudioPlayerUtil.m in Sources */,
+				FE110BB91FEA081700943077 /* EMCDDeviceManager+ProximitySensor.m in Sources */,
+				FE47B8D61FE90FE7007B6FBF /* ViewController.m in Sources */,
+				FE47B8E11FE90FE7007B6FBF /* main.m in Sources */,
+				FE110BA61FE9F0B900943077 /* EMVoiceConverter.mm in Sources */,
+				FE47B90D1FE931E9007B6FBF /* GJAVAudioRecorder.m in Sources */,
+				FE47B8D31FE90FE7007B6FBF /* AppDelegate.m in Sources */,
+				FE110BA41FE9F0B900943077 /* wav.mm in Sources */,
+				FE47B90A1FE92B16007B6FBF /* GJAVAudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8E21FE90FE7007B6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47B8EB1FE90FE7007B6FBF /* AVDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47B8ED1FE90FE7007B6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47B8F61FE90FE7007B6FBF /* AVDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE47B8E81FE90FE7007B6FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE47B8CD1FE90FE7007B6FBF /* AVDemo */;
+			targetProxy = FE47B8E71FE90FE7007B6FBF /* PBXContainerItemProxy */;
+		};
+		FE47B8F31FE90FE7007B6FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE47B8CD1FE90FE7007B6FBF /* AVDemo */;
+			targetProxy = FE47B8F21FE90FE7007B6FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE47B8D71FE90FE7007B6FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE47B8D81FE90FE7007B6FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE47B8DC1FE90FE7007B6FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE47B8DD1FE90FE7007B6FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE47B8F81FE90FE7007B6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE47B8F91FE90FE7007B6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE47B8FB1FE90FE7007B6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVFMS7D6Y;
+				INFOPLIST_FILE = AVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVDemo/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/AVDemo/VoiceConvert/opencore-amrnb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE47B8FC1FE90FE7007B6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVFMS7D6Y;
+				INFOPLIST_FILE = AVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVDemo/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/AVDemo/VoiceConvert/opencore-amrnb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE47B8FE1FE90FE7007B6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVDemo.app/AVDemo";
+			};
+			name = Debug;
+		};
+		FE47B8FF1FE90FE7007B6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVDemo.app/AVDemo";
+			};
+			name = Release;
+		};
+		FE47B9011FE90FE7007B6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVDemo;
+			};
+			name = Debug;
+		};
+		FE47B9021FE90FE7007B6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjsx.com.AVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE47B8C91FE90FE7007B6FBF /* Build configuration list for PBXProject "AVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47B8F81FE90FE7007B6FBF /* Debug */,
+				FE47B8F91FE90FE7007B6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47B8FA1FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47B8FB1FE90FE7007B6FBF /* Debug */,
+				FE47B8FC1FE90FE7007B6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47B8FD1FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47B8FE1FE90FE7007B6FBF /* Debug */,
+				FE47B8FF1FE90FE7007B6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47B9001FE90FE7007B6FBF /* Build configuration list for PBXNativeTarget "AVDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47B9011FE90FE7007B6FBF /* Debug */,
+				FE47B9021FE90FE7007B6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE47B8C61FE90FE7007B6FBF /* Project object */;
+}
